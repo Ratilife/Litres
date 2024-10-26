@@ -1,8 +1,8 @@
 from PIL import Image
 from fpdf import FPDF
 
-# определяем расширения файлов
-def determiningFileExtension():
+# определяем наличие файлов
+def determiningFileExtension(image_folder):
     # Создаем пустое множество для уникальных расширений и список для имен файлов
     file_names = []
     # Перебираем файлы в указанной папке
@@ -20,12 +20,12 @@ def determiningFileExtension():
 
 # Папка, где находятся изображения
 image_folder = "'F:/1С/БГУ/1С БГУ книга"
-
+files = determiningFileExtension(image_folder)
 # Создаем объект PDF
 pdf = FPDF()
 
 # Перебираем все изображения в папке
-for i in range(380):
+for i in range(380): # заменить перебор массива
     # Формируем путь к изображению
     image_path = f"{image_folder}/{i}.jpg"  # Предполагаем, что изображения названы от 0 до 458 и имеют расширение .jpg
     try:
