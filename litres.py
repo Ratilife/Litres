@@ -3,18 +3,19 @@ from fpdf import FPDF
 
 # определяем расширения файлов
 def determiningFileExtension():
-    # Создаем пустое множество для уникальных расширений
-    extensions = set()
-
+    # Создаем пустое множество для уникальных расширений и список для имен файлов
+    file_names = []
     # Перебираем файлы в указанной папке
     for filename in os.listdir(image_folder):
-        # Получаем расширение файла
-        _, ext = os.path.splitext(filename)
-        if ext:  # Добавляем расширение, если оно есть
-            extensions.add(ext)
-    # Выводим уникальные расширения
-    print("Найденные расширения файлов:", extensions)
-    return extensions
+        # Добавляем имя файла в список
+        file_names.append(filename)
+
+    # Сортируем список имен файлов
+    file_names.sort()
+
+    print("Имена файлов, отсортированные от меньшего к большему:", file_names)
+
+    return  file_names
 
 
 # Папка, где находятся изображения
