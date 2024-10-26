@@ -25,12 +25,10 @@ files = determiningFileExtension(image_folder)
 pdf = FPDF()
 
 # Перебираем все изображения в папке
-for i in range(380): # заменить перебор массива
-    # Формируем путь к изображению
-    image_path = f"{image_folder}/{i}.jpg"  # Предполагаем, что изображения названы от 0 до 458 и имеют расширение .jpg
+for file_name in files:
     try:
         # Открываем изображение
-        image = Image.open(image_path)
+        image = Image.open(file_name)
         # Добавляем страницу в PDF
         pdf.add_page()
         # Вставляем изображение на страницу

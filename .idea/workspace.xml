@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="418531f1-a38e-405c-bc92-5c6f1bd72b70" name="Changes" comment="Создаем файл pdf на основании файлов с расширениями картинок">
+    <list default="true" id="418531f1-a38e-405c-bc92-5c6f1bd72b70" name="Changes" comment="добавлен метод determiningFileExtension()">
       <change beforePath="$PROJECT_DIR$/litres.py" beforeDir="false" afterPath="$PROJECT_DIR$/litres.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729957589605</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавлен метод determiningFileExtension()">
+      <option name="closed" value="true" />
+      <created>1729957893368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729957893368</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Создаем файл pdf на основании файлов с расширениями картинок" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создаем файл pdf на основании файлов с расширениями картинок" />
+    <MESSAGE value="добавлен метод determiningFileExtension()" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлен метод determiningFileExtension()" />
   </component>
 </project>
