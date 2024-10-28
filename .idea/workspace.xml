@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="418531f1-a38e-405c-bc92-5c6f1bd72b70" name="Changes" comment="ошибка в методе creatingBook при выполнении">
+    <list default="true" id="418531f1-a38e-405c-bc92-5c6f1bd72b70" name="Changes" comment="переписан метод process_image_file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/litres.py" beforeDir="false" afterPath="$PROJECT_DIR$/litres.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "conversion",
@@ -149,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730121193873</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="переписан метод process_image_file">
+      <option name="closed" value="true" />
+      <created>1730121526959</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730121526959</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +179,7 @@
     <MESSAGE value="переписали создание pdf файла" />
     <MESSAGE value="комит" />
     <MESSAGE value="ошибка в методе creatingBook при выполнении" />
-    <option name="LAST_COMMIT_MESSAGE" value="ошибка в методе creatingBook при выполнении" />
+    <MESSAGE value="переписан метод process_image_file" />
+    <option name="LAST_COMMIT_MESSAGE" value="переписан метод process_image_file" />
   </component>
 </project>

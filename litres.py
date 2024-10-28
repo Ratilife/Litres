@@ -56,10 +56,6 @@ def process_image_file2(input_file: str, output_folder: str) -> None:
     except Exception as e:
         print(f"Ошибка при обработке файла {input_file}: {e}")
 
-import os
-import shutil
-from PIL import Image
-
 def process_image_file(input_file: str, output_folder: str) -> None:
     """
     Обрабатывает изображение в зависимости от его формата:
@@ -110,19 +106,20 @@ def creatingBook(files,image_folder,output_path="output.pdf"):
     # Сохраняем PDF
     pdf.output(output_path)
 
+
 def start():
     # Папка, где находятся изображения
     image_folder = "F:/1С/БГУ/1С БГУ книга/"
-    #files = determiningFileExtension(image_folder)
+    files = determiningFileExtension(image_folder)
     image_path_save = "F:/1С/БГУ/Конвертация картинки/"
-    output_path = "F:/1С/БГУ/Результат/"
-    """
+    output_path = "F:/1С/БГУ/Результат/Результат.pdf"
+
     for file_name in files:
         try:
             image_path = image_folder + file_name
             process_image_file(image_path,image_path_save)
         except FileNotFoundError:
             print(f"Изображение {image_path} не найдено.")
-    """
+
     files_save = determiningFileExtension(image_path_save)
     creatingBook(files_save,image_path_save,output_path)
