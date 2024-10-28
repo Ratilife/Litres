@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="418531f1-a38e-405c-bc92-5c6f1bd72b70" name="Changes" comment="комит">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="418531f1-a38e-405c-bc92-5c6f1bd72b70" name="Changes" comment="ошибка в методе creatingBook при выполнении">
       <change beforePath="$PROJECT_DIR$/litres.py" beforeDir="false" afterPath="$PROJECT_DIR$/litres.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
@@ -45,7 +48,7 @@
     "Python.main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "conversion",
     "ignore.virus.scanning.warn.message": "true",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
@@ -138,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729958894393</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ошибка в методе creatingBook при выполнении">
+      <option name="closed" value="true" />
+      <created>1730121193873</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730121193873</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +169,7 @@
     <MESSAGE value="добавлен метод determiningFileExtension()" />
     <MESSAGE value="переписали создание pdf файла" />
     <MESSAGE value="комит" />
-    <option name="LAST_COMMIT_MESSAGE" value="комит" />
+    <MESSAGE value="ошибка в методе creatingBook при выполнении" />
+    <option name="LAST_COMMIT_MESSAGE" value="ошибка в методе creatingBook при выполнении" />
   </component>
 </project>
